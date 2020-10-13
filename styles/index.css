@@ -1,0 +1,165 @@
+/* Navigation bar */
+.navbar{
+  padding: 3% 15%;
+}
+.navbar-brand{
+  font-family: sans-serif;
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 500;
+}
+.container-fluid{
+  padding: 0%;
+  background: none;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 1.25rem;
+    opacity: 1;
+}
+.navbar .navbar-brand{
+  color: #fff;
+  opacity: 1;
+}
+.brand-icon{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+}
+/* Title */
+#title{
+  background-image: url("images/navbar-bgi.jpg");
+  background-size: 100% 100%;
+  opacity: 0.75;
+}
+.title{
+  text-align: left;
+  background: none;
+  padding: 0% 40% 0% 15%;
+}
+.big-heading{
+  font-size: 3.5rem;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+.download-button{
+  margin: 3px 30px 40px;
+  opacity: 1;
+}
+.coloured-section{
+  background-color: #835858;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+/* Features */
+#features{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.feature-img{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 75px;
+  border-radius: 100%;
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+.feature-txt{
+  font-size: 1.25rem;
+}
+/* Content */
+.fitness{
+  height: 250px;
+  background-image: url("https://images.pexels.com/photos/1092877/pexels-photo-1092877.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: 100% 100%;
+  position: relative;
+}
+.fitness-title{
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  font-family: serif;
+}
+.content-button{
+  color: #fff;
+}
+.content-button:hover{
+  text-decoration: none;
+}
+.martial-arts{
+  height: 250px;
+  background-image: url("https://images.pexels.com/photos/163403/box-sport-men-training-163403.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: 100% 100%;
+  position: relative;
+}
+.martial-arts-title{
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-family: serif;
+}
+/* Pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.pricing-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.pricing-description{
+  color: #8f8f8f;
+}
+/* Quotes-carousel */
+#quotes{
+  background-color: black;
+}
+.quote-1{
+  height: 450px;
+  width: 70%;
+  background-image: url("https://wallpapercave.com/wp/wp2377772.jpg");
+  background-size: 100% 100%;
+  position: relative;
+  left: 15%;
+}
+.quote-2{
+  height: 450px;
+  width: 70%;
+  background-image: url("images/quote-active.jpg");
+  background-size: 100% 100%;
+  position: relative;
+  left: 15%;
+}
+.quote-3{
+  height: 450px;
+  width: 70%;
+  background-image: url("https://wallpapercave.com/wp/wp2480972.jpg");
+  background-size: 100% 100%;
+  position: relative;
+  left: 15%;
+}
+/* Contact */
+footer{
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+.contact-link{
+  margin: 20px 15px 10px;
+  color: blue;
+}
+.copyright-text{
+  color: black;
+  font-size: 1.25rem;
+  margin-bottom: 0px;
+}
+.contact-link:hover{
+  color: #1f4068;
+}
