@@ -16,6 +16,7 @@
     color: black;
     font-size: 1.25rem;
     opacity: 1;
+    text-align: right;
 }
 .navbar .navbar-brand{
   color: #fff;
